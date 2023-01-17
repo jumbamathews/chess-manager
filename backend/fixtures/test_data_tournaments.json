@@ -1,0 +1,40 @@
+[
+  {
+    "model": "tournaments.tournament",
+    "pk": 1,
+    "fields": {
+      "creator": 1,
+      "number": 1,
+      "name": "open_tournament",
+      "total_rounds": 4,
+      "finished_rounds": 0,
+      "players_list": "[]",
+      "locked": false,
+      "open": true,
+      "on_going": false,
+      "completed": false,
+      "created": true,
+      "tournament_date": "2022-08-10",
+      "date_created": "2021-10-29T19:19:51.981Z"
+    }
+  },
+  {
+    "model": "tournaments.tournament",
+    "pk": 2,
+    "fields": {
+      "creator": 1,
+      "number": 2,
+      "name": "locked_tournament",
+      "total_rounds": 4,
+      "finished_rounds": 0,
+      "players_list": "[\"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\"]",
+      "locked": true,
+      "open": false,
+      "on_going": true,
+      "completed": false,
+      "created": true,
+      "tournament_date": "2022-03-15",
+      "date_created": "2021-10-29T19:19:51.981Z"
+    }
+  }
+]
