@@ -8,7 +8,7 @@ from core.settings.base import *
 DEBUG = True
 
 # 'backend' is the name of the container attributed in docker-compose file.
-ALLOWED_HOSTS = ['backend', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['backend', 'localhost', '127.0.0.1','king-prawn-app-7qzfg.ondigitalocean.app']
 
 DATABASES = {
     'default': {
